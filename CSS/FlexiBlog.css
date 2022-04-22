@@ -1,0 +1,887 @@
+body{
+    background-color: white;
+}
+main{
+    border: 1px solid;
+    margin: 0px 10px 0px 10px;
+    background-color: white;
+    height: 5000px;
+}
+.F1{
+    font-size: 30px;
+}
+.F2{
+    margin-top: 5px;
+    background-color: rgb(188, 184, 184);
+    width: 300px;
+    height: 30px;
+}
+span{
+    display: inline-block;
+    
+}
+span>div{
+    display: inline;
+    margin-right: 160px;
+     
+}
+span>div>a{
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+}
+span>div>a:hover{
+           background-color: grey;
+}
+section{
+    background-color: lightgrey;
+    margin: 10px 20px 10px 25px;
+    height: 670px;
+    width: 1350px;
+   
+
+}
+.section1{
+    display: inline-block;
+    border: 1px solid;
+    margin-left: 15%;
+    height: 150px;
+    width:900px
+}
+.section1>div{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+     border-radius: 10px;
+
+}
+.section1>div>img{
+    margin-top: 10px;
+}
+.section2{
+    display: inline-block;
+    border: 1px solid;
+    margin-left: 15%;
+    height: 500px;
+    width:900px
+}
+.sat{
+    border: 1px solid;
+    position: relative;
+    
+    display: inline-block;
+
+}
+.satellite1{
+    border: 1px solid;
+    margin-top: 0px;
+    margin-left: 10px;
+    height: 300px;
+    width: 65%;
+    
+    position: relative;
+}
+.satellite1>a{
+    background-color: lightskyblue;
+    height: 50px;
+      color: black;
+      text-decoration: none;
+}
+.satellite1>#p1{
+    font-size: x-large;
+    font-weight: 800;
+  
+}
+.satellite1>ul{
+    display: inline-block;
+}
+.satellite2{
+    border: 1px solid orangered;
+    position:absolute;
+    height: 300px;
+    width: 22%;
+    background-color: rgb(32, 30, 30);
+    border-radius: 20px;
+    
+}
+.satellite2>img{
+    height: 100%;
+    width: 50%;
+}
+.satellite3{
+    
+    border: 1px solid;
+    margin: 0px 10px 0px 10px;
+    height: 180px;
+    position: relative;
+}
+.four{
+     
+}
+.one{
+    /*border: 1px solid red;*/
+    height: 150px;
+    width: 28%;
+    top: 10px;
+    border-left: 5px  solid lightskyblue;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+}
+.one>p{
+    float:right;
+}
+.one1{
+    border: 1px solid;
+    height: 130px;
+    width: 50px;
+    margin: 8px;
+    position: absolute;
+    
+    
+      
+}
+.one2{
+    border: 1px solid;
+    height: 130px;
+    width: 180px;
+    margin: 8px 1px 2px 0px; 
+    position: absolute;
+    left: 60px;
+}
+.one2>p ,.two2>p ,.three2>p{
+    font-weight: 700;
+}
+
+
+.two{
+   /* border: 1px solid blue;*/
+    height: 150px;
+    width: 32%; 
+    margin: 10px;
+    position: absolute;
+    left: 250px;
+    border-left: 5px  solid lightskyblue;
+    background-color: white;
+    border-radius: 10px;
+    
+    
+}
+.two1{
+    border: 1px solid;
+    height: 130px;
+    width: 80px;
+    margin: 8px;
+    position: absolute;
+   
+    
+}
+.two2{
+    border: 1px solid;
+    height: 130px;
+    width: 180px;
+    margin: 8px;
+    position: absolute;
+    left: 80px;
+  
+   
+}
+.three{
+   /* border: 1px solid red;*/
+    height: 150px;
+    width: 31%;
+    margin: 10px;
+    position:relative;
+    left: 560px;
+    border-left: 5px  solid lightskyblue;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.three1{
+    border: 1px solid;
+    height: 130px;
+    width: 80px;
+    margin: 8px;
+    position: absolute;
+}
+.three2{
+    border: 1px solid;
+    height: 130px;
+    width: 180px;
+    margin: 8px;
+    position: absolute;
+    left: 80px;
+}
+.section3{
+    border: 1px solid;
+    background-color: rgb(212, 207, 207);
+}
+.section3>h3{
+    border-left: 3px solid rgb(35, 68, 103);
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.pick{
+    border: 1px solid;
+    height: 300px;
+    display: inline-block;
+    margin: 10px 20px 0px 180px;
+}
+.picks{
+    display: inline-block;
+}
+.pick1{
+    border: 1px solid;
+    height: 280px;
+    width: 290px;
+    margin: 5px  ;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    
+}
+.pick2{
+    border: 1px solid;
+    height: 280px;
+    width: 290px;
+    margin: 5px ;
+    border-radius: 10px;
+    background-color: white;
+}
+.pick3{
+    border: 1px solid;
+    height: 280px;
+    width: 290px;
+    margin: 5px ;
+    border-radius: 10px;
+    background-color: white;
+}
+.picks>a{
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+        margin-left: 5px;
+}
+.picks>#yellow{
+    text-decoration: none;
+    color: black;
+    background-color:yellow;
+        margin-left: 5px;
+}
+.picks>p{
+    font-size: large;
+    font-weight: 700;
+}
+.picks>small{
+    font-size:15px;
+    color: lightslategray;
+}
+.section4{
+    border: 1px solid red;
+    background-color: rgb(212, 207, 207);
+}
+.new{
+    border: 1px solid blue;
+    height: 620px;
+    width: 1000px;
+    display: inline-block;
+    margin: 10px 20px 0px 180px;
+}
+.news{
+    display: inline-block;
+}
+.new1{
+    border: 1px solid ;
+    height: 600px;
+    width: 290px;
+    margin: 5px  ;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+
+    
+}
+.new11{
+    border: 1px solid;
+    height: 310px;
+    width: 270px;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+    background-image: url();
+    background-color: gray;
+
+}
+.new11>a ,.new12>a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: yellow;
+    margin: 10px; 
+}
+.new11>p,.new12>p{
+    font-size: large;
+    font-weight: 900;
+    color: white;
+}
+.new12{
+    border: 1px solid;
+    height: 250px;
+    width: 270px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(115, 113, 113);
+    margin: 10px;
+}
+.new2{
+    border: 1px solid;
+    height: 600px;
+    width: 290px;
+    margin: 5px ;
+    border-radius: 10px;
+    background-color: white;
+    position:absolute;
+    left: 580px;
+}
+.new21{
+    border: 1px solid;
+    height: 250px;
+    width: 270px;
+    
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+
+}
+.new22>a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: blueviolet;
+    margin: 10px;
+    
+}
+.new22>p{
+    font-size: large;
+    font-weight: 700;
+}
+.new22>small{
+    font-size:15px;
+    color: lightslategray;
+
+}
+.new21{
+    background-color: grey;
+}
+.new22{
+    border: 1px solid;
+    height: 310px;
+    width: 270px;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+    background-image: url();
+    background-color: rgb(221, 192, 192);
+}
+.new3{
+    border: 1px solid;
+    height: 600px;
+    width: 290px;
+    margin: 5px ;
+    border-radius: 10px;
+    background-color: white;
+    position:absolute;
+    left: 930px;
+
+}
+.new31{
+    
+    height: 190px;
+    width: 250px;
+    border-left:  2px solid violet;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    margin: 0px 10px 0px 10px;
+    position: relative;
+}
+.new311{
+    border: 1px solid;
+    height: 130px;
+    width: 50px;
+    margin: 8px;
+    position: absolute;
+}
+.new312{
+    border: 1px solid;
+    height: 130px;
+    width: 180px;
+    margin: 8px 1px 2px 0px; 
+    position: absolute;
+    left: 60px;
+}
+
+.new32{
+   /* border: 1px solid;*/
+    height: 190px;
+    width: 270px;
+    border-left:  2px solid violet;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+    position:relative;
+}
+.new321{
+    border: 1px solid;
+    height: 130px;
+    width: 50px;
+    margin: 8px;
+    position: absolute;
+    
+
+}
+.new322{
+    border: 1px solid;
+    height: 130px;
+    width: 180px;
+    margin: 8px 1px 2px 0px; 
+    position: absolute;
+    left: 60px;
+}
+.new33{
+   /* border: 1px solid;*/
+    height: 190px;
+    width: 270px;
+    border-left:  2px solid violet;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+position: relative;
+}
+.new331{
+    border: 1px solid;
+    height: 130px;
+    width: 50px;
+    margin: 8px;
+    position: absolute;
+    
+}
+.new332
+{
+    border: 1px solid;
+    height: 130px;
+    width: 180px;
+    margin: 8px 1px 2px 0px; 
+    left: 60px;
+    position: absolute;
+}
+.section5{
+    border: 1px solid red;
+    background-color: rgb(212, 207, 207);
+    position: relative;
+    height: 400px;
+}
+.Origin{
+ border: 1px solid blue;
+ height: 150px;
+ width: 500px;
+ margin-top: 100px;
+ margin-left: 100px;
+ margin-bottom: 100px;
+ margin-right: 100px;
+ text-align: center;
+ position: relative;
+ left: 300px;
+ background-color: white;
+ border-radius: 10px;
+}
+.Origin>a{
+    margin-top: 0px;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+}
+.Origin>p{
+    font-size: 20px;
+    color: lightslategray;
+}
+.section6{   
+     border: 1px solid;
+    
+     background-color: rgb(212, 207, 207);
+     position: relative;
+     height: 1050px;
+}
+.Energy1{
+    border: 1px solid;
+    position: relative;
+    
+    height: 500px;
+    margin: 10px 50px 0px 180px;
+}
+   
+
+.Energy11{
+    border: 1px solid ;
+    height: 490px;
+    width: 290px;
+    margin: 5px  ;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+}
+.Energy111{
+    border: 1px solid;
+    background-color: lightslategray;
+    position: absolute;
+    left: 10px;
+    height: 170px;
+    width: 270px;
+}
+.Energy112{
+    border: 1px solid;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    height: 300px;
+    width: 270px;
+}
+.Energy12{
+    border: 1px solid;
+    height: 490px;
+    width: 290px;
+    margin: 5px ;
+    border-radius: 10px;
+    background-color: white;
+    position:absolute;
+    left: 350px;
+}
+.Energy121{
+    border: 1px solid;
+    background-color: lightslategray;
+    position: absolute;
+    left: 10px;
+    height: 170px;
+    width: 270px;
+}
+.Energy122{
+    border: 1px solid;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    height: 300px;
+    width: 270px;
+}
+.Energy13{
+    border: 1px solid;
+    height: 490px;
+    width: 290px;
+    margin: 5px ;
+    border-radius: 10px;
+    background-color: white;
+    position:absolute;
+    left: 700px
+}
+.Energy131{
+    border: 1px solid;
+    background-color: lightslategray;
+    position: absolute;
+    left: 10px;
+    height: 150px;
+    width: 270px;
+
+}
+.Energy132{
+    border: 1px solid;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    height: 300px;
+    width: 270px;
+}
+.Energy2{
+    border: 1px solid;
+    position: relative;
+    
+    height: 500px;
+    margin: 10px 50px 0px 180px;
+}
+.Energy21{
+    border: 1px solid ;
+    height: 490px;
+    width: 290px;
+    margin: 5px  ;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+}
+.Energy211{
+    border: 1px solid;
+    background-color: lightslategray;
+    position: absolute;
+    left: 10px;
+    height: 170px;
+    width: 270px;
+}
+.Energy212{
+    border: 1px solid;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    height: 300px;
+    width: 270px;
+}
+.Energy22{
+    border: 1px solid;
+    height: 490px;
+    width: 290px;
+    margin: 5px ;
+    border-radius: 10px;
+    background-color: white;
+    position:absolute;
+    left: 350px;
+}
+.Energy221{
+    border: 1px solid;
+    background-color: lightslategray;
+    position: absolute;
+    left: 10px;
+    height: 170px;
+    width: 270px;
+}
+.Energy222{
+    border: 1px solid;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    height: 300px;
+    width: 270px;
+}
+.Energy23{
+    border: 1px solid;
+    height: 490px;
+    width: 290px;
+    margin: 5px ;
+    border-radius: 10px;
+    background-color: white;
+    position:absolute;
+    left: 700px
+}
+.Energy231{
+    border: 1px solid;
+    background-color: lightslategray;
+    position: absolute;
+    left: 10px;
+    height: 170px;
+    width: 270px;
+}
+.Energy232{
+    border: 1px solid;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    height: 300px;
+    width: 270px;
+}
+h3{
+    border-left: 3px solid lightslategray;
+    font-size: 20px;
+}
+.EN>p{
+    font-size: 20px;
+    color: black;
+}
+.EN>small{
+    color: lightslategray;
+}
+.section7{
+    border: 1px solid red;
+    background-color: rgb(212, 207, 207);
+}
+.physics{
+    border: 1px solid;
+    position: relative;
+    
+    height: 670px;
+    margin: 10px 50px 0px 180px;
+}
+.physics1{
+    border: 1px solid ;
+    height: 650px;
+    width: 480px;
+    margin: 5px  ;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    position: absolute;left: 10px;
+}
+.phy11{
+    border: 1px solid;
+    height: 200px;
+    margin: 8px;
+    position: relative;
+    
+
+}
+.phy111{
+     border: 1px solid ;
+     height: 180px;
+     width: 150px;
+     top:10px;
+     position: absolute;
+     background-color: grey;
+
+}
+.p1{
+    
+}
+.phy112{
+      border: 1px solid;
+      height: 180px;
+      width: 290px;
+      position: absolute;
+      top:10px;
+      left:150px;
+    
+}
+.phy12{
+     border: 1px solid;
+    height: 200px;
+    margin: 8px;
+    position: relative;
+
+}
+.phy121{
+    border: 1px solid ;
+    height: 180px;
+    width: 150px;
+    top:10px;
+    position: absolute;
+    background-color: grey;
+}
+.phy122{
+    border: 1px solid;
+      height: 180px;
+      width: 290px;
+      position: absolute;
+      top:10px;
+      left:150px;
+}
+.phy13{
+    border: 1px solid;
+    height: 200px;
+    margin: 8px;
+    position: relative;
+}
+.phy131{
+    border: 1px solid ;
+    height: 180px;
+    width: 150px;
+    top:10px;
+    position: absolute;
+    background-color: grey;
+}
+.phy132{
+    border: 1px solid;
+    height: 180px;
+    width: 290px;
+    position: absolute;
+    top:10px;
+    left:150px;
+}
+.physics2{
+    border: 1px solid;
+    height: 650px;
+    width: 480px;
+    margin: 5px ;
+    border-radius: 10px;
+    background-color: white;
+    position:absolute;
+    left: 510px
+}
+.phy21{
+    border: 1px solid;
+    height: 200px;
+    margin: 8px;
+    position: relative;
+}
+.phy211{
+    border: 1px solid ;
+    height: 180px;
+    width: 150px;
+    top:10px;
+    position: absolute;
+    background-color: grey;
+}
+.phy212{
+    border: 1px solid;
+    height: 180px;
+    width: 290px;
+    position: absolute;
+    top:10px;
+    left:150px;
+}
+.phy22{
+    border: 1px solid;
+    height: 200px;
+    margin: 8px;
+    position: relative;
+}
+.phy221{
+    border: 1px solid ;
+    height: 180px;
+    width: 150px;
+    top:10px;
+    position: absolute;
+    background-color: grey;
+}
+.phy222{
+    border: 1px solid;
+    height: 180px;
+    width: 290px;
+    position: absolute;
+    top:10px;
+    left:150px;
+}
+.phy23{
+    border: 1px solid;
+    height: 200px;
+    margin: 8px;
+    position: relative;
+}
+.phy231{
+    border: 1px solid ;
+    height: 180px;
+    width: 150px;
+    top:10px;
+    position: absolute;
+    background-color: grey;
+}
+.phy232{
+    border: 1px solid;
+    height: 180px;
+    width: 290px;
+    position: absolute;
+    top:10px;
+    left:150px;
+}
+.phy112>p ,.phy122>p,.phy132>p,.phy212>p,.phy222>p,.phy232>p{
+    font-size: large;
+}
+.section8{
+    border: 1px solid;
+    
+    background-color: rgb(212, 207, 207);
+   
+}*/
+.space1{
+    border: 1px solid;
+    position: relative;
+    
+    height: 500px;
+    margin: 10px 50px 0px 180px;
+}

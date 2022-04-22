@@ -1,0 +1,107 @@
+.Main{
+        height: auto;
+        
+        display: flex;
+        flex-direction: column;
+        
+        margin: 10px;
+        background-color: bisque;
+}
+.Container1{
+    border: 1px solid;
+    height: auto;
+     width: 100%;
+    display: flex;   
+    
+}
+.one{
+    height: auto;
+    width:20%;
+    height: 50px;
+    padding-top: 5px;
+     
+     text-align: center;
+    
+    border: 1px solid red;
+    background-color: yellow;
+}
+.one>a{
+    text-decoration: none;
+}
+.Container2{
+    border: 1px solid;
+    display: flex;
+    height: auto;
+    margin-bottom: 30px;
+}
+.Container2>.Two{
+    border: 1px solid;
+    padding-top: 50px;
+     height: auto;
+     flex-grow: 6;
+     text-align: center;
+
+}
+.Container2>.Three{
+    border: 1px solid;
+    flex-grow: 3;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Three>.Three1{
+    border: 1px solid;
+    height: 50%;
+    
+    
+}
+.Three>.Three2{
+    border: 1px solid red;
+    height: 50%;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:400px) {
+    
+    .Container1{
+        flex-direction: column;
+          width: 100%;
+    }
+    .Container1>.one{
+        width: 99%;
+        margin-bottom: 5px;
+            }
+ 
+    
+    
+.container2{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+.Two{
+    height: auto;
+
+    display: flex;
+    align-items: center;
+}
+}

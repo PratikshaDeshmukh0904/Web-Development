@@ -1,0 +1,40 @@
+nav{
+    background-color: black;
+    height: 60px;
+}
+nav>div{
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    
+}
+div:hover{
+    background-color: lightgrey;
+}
+section{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+}
+.a1{
+    display: inline-block;
+}
+.overflow,.overflow1,.overflow2,.overflow3{
+   border: 1px solid;
+    margin: 5px;
+    width: 22%;
+    height: 300px;
+}
+.overflow{
+    overflow: auto;
+}
+.overflow1{
+    overflow: scroll;
+}
+.overflow2{
+    overflow: visible;
+}
+.overflow3{
+    overflow: hidden;
+}

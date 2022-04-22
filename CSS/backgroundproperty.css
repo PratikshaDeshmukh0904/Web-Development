@@ -1,0 +1,8 @@
+body{
+    background-color:aquamarine;
+    background-image: url(../Images/butterfly.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}

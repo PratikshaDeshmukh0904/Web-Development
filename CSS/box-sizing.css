@@ -1,0 +1,21 @@
+section{
+    border: 1px solid;
+    height: 400px;
+    overflow: auto;
+   
+}
+div{
+    border: 1px solid red;
+    float: left;
+    width: 18%;
+    margin: 10px;
+    overflow: auto;
+}
+img{
+    height: 120px;
+    width: 100%;
+    padding: 20px;
+}
+*{
+    box-sizing: border-box;
+}
