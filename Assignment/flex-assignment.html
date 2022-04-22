@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Assignment</title>
+    <style>
+        .main{
+            border: 1px solid;
+            display: flex;
+         background-image: url(../Images/shop1.jpg);
+         background-size: cover;
+            flex-direction: column;
+            color: goldenrod;
+        }
+       header{
+           border: 1px solid;
+           margin: 10px;
+           display: flex;
+           justify-content: center;
+       }
+       header>h1{
+           color: yellow;
+       }
+        .main2{
+            border: 5px solid;
+            display: flex;
+            margin: 10px;    
+            
+        }
+        
+        .main2>div{
+            border: 1px solid;
+            
+            
+        }
+        aside{
+            border: 1px solid silver;
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            margin: 10px;
+            
+        }
+        .item1{
+            border: 1px solid;
+            margin: 10px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+           
+        }
+        .item1>a{
+            text-decoration: none;
+            color: black;
+            font-size: large;
+        }
+        .item1>a:hover{
+            color: silver;
+        }
+        .menu{
+            display: flex;
+            flex-grow: 4;
+            flex-direction: column;
+            margin: 10px;
+           
+        }
+        .product{
+            border: 1px solid dimgray;
+            margin: 10px;
+            display: flex;
+            justify-content: space-around;
+    
+            justify-content: center;
+            align-items: center;
+        }
+        .product>div{
+            margin: 10px;
+        }
+        .product>div{
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+        }
+           .legend:hover{
+               color: brown;
+           }
+          
+                
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header><h1>Pari Jwellers</h1></header>
+
+        <div class="main2">
+            <aside >
+                <div class="item1"><a href="https://www.google.com/shopping/product/1350101362993722280?lsf=seller:6673268,store:5156729420138304281,lsfqd:0&prds=oid:18099646638907582389&q=rings&hl=en&ei=_qtWYvGyF6rT3LUP2dyf0Ao&source=Google&lsft=gclid:CjwKCAjw6dmSBhBkEiwA_W-EoDFCsOcKAFBSUYOrXAYxD_vTV5xcUa2zWnL71PSPG58PDbkQYhRPFBoCB8UQAvD_BwE">Necklace</a></div>
+                <div  class="item1"><a href="https://www.google.com/shopping/product/15692360125332049346?lsf=seller:6673268,store:5156729420138304281,lsfqd:0&prds=oid:7986588203978279065&q=necklace&hl=en&ei=_qtWYvGyF6rT3LUP2dyf0Ao&source=Google&lsft=gclid:CjwKCAjw6dmSBhBkEiwA_W-EoCTFIIB7bsEeVOSgkdoJ3-MxItpNHWlMLAde8QShaE93oYrEIUA2fxoCk3sQAvD_BwE">Pendents</a></div>
+                <div  class="item1"><a href="https://www.google.com/shopping/product/15692360125332049346?lsf=seller:6673268,store:5156729420138304281,lsfqd:0&prds=oid:7986588203978279065&q=necklace&hl=en&ei=_qtWYvGyF6rT3LUP2dyf0Ao&source=Google&lsft=gclid:CjwKCAjw6dmSBhBkEiwA_W-EoCTFIIB7bsEeVOSgkdoJ3-MxItpNHWlMLAde8QShaE93oYrEIUA2fxoCk3sQAvD_BwE">Earrings</a></div>
+                <div  class="item1"><a href="https://www.google.com/shopping/product/15692360125332049346?lsf=seller:6673268,store:5156729420138304281,lsfqd:0&prds=oid:7986588203978279065&q=necklace&hl=en&ei=_qtWYvGyF6rT3LUP2dyf0Ao&source=Google&lsft=gclid:CjwKCAjw6dmSBhBkEiwA_W-EoCTFIIB7bsEeVOSgkdoJ3-MxItpNHWlMLAde8QShaE93oYrEIUA2fxoCk3sQAvD_BwE">Bangles</a></div>
+                <div  class="item1"><a href="https://www.google.com/shopping/product/15692360125332049346?lsf=seller:6673268,store:5156729420138304281,lsfqd:0&prds=oid:7986588203978279065&q=necklace&hl=en&ei=_qtWYvGyF6rT3LUP2dyf0Ao&source=Google&lsft=gclid:CjwKCAjw6dmSBhBkEiwA_W-EoCTFIIB7bsEeVOSgkdoJ3-MxItpNHWlMLAde8QShaE93oYrEIUA2fxoCk3sQAvD_BwE">Rings</a></div>
+            </aside>
+            <div class="menu">
+                <fieldset class="product1 product fieldset">
+                    <legend class="legend">Necklace</legend>
+                    <div><img src="../Images/necklace1.jpg" height="100%" width="100%"> </div>
+                    <div><img src="../Images/necklace2.jpeg" height="100%" width="100%"></div>
+                    <div><img src="../Images/necklace3.jpg" height="100%" width="100%"></div>
+                    <div><img src="../Images/necklace4.jpg" height="100%" width="100%"></div>
+                    <div><img src="../Images/neckalce5.jpg" height="100%" width="100%"></div>
+                </fieldset>
+
+                <fieldset class="product1 product fieldset">
+                    <legend class="legend">Pendents</legend>
+                    <div><img src="../Images/pendent1.jpeg" height="100%" width="100%"></div>
+                    <div><img src="../Images/pendent2.jpg" height="100%" width="100%"></div>
+                    <div><img src="../Images/pendent3.jpg" height="100%" width="100%"></div>
+                    <div><img src="../Images/pendent4.jpg" height="100%" width="100%"></div>
+                    <div><img src="../Images/pendent5.jpg" height="100%" width="100%"></div>
+                </fieldset>
+
+                    <fieldset class="product1 product fieldset">
+                        <legend class="legend">Earrings</legend>
+                        <div><img src="../Images/ear1.jpg" height="100%" width="100%"></div>
+                        <div><img src="../Images/ear2.jpg" height="100%" width="100%"></div>
+                        <div><img src="../Images/ear3.jpg" height="100%" width="100%"></div>
+                        <div><img src="../Images/ear4.jpg" height="100%" width="100%"></div>
+                        <div><img src="../Images/ear5.jpg" height="100%" width="100%"></div>
+                    </fieldset>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
