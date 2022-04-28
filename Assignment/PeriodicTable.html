@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        .container{
+            border: 1px solid;
+            display: grid;
+            text-align:center;
+            grid-template-columns:  auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
+            grid-template-areas: 'a b b b b  b b b b b b b b b b b b r' 's t u u u u u u u u u u v w x y z a1' 'b1 c1 d1 d1 d1 d1 d1 d1 d1 d1 d1 d1 e1 f1 g1 h1 i1 j1' 'k1 l1 m1 n1 o1 p1 q1 r1 s1 t1 u1 v1 w1 x1 y1 z1 a2 b2' 'c2 d2 e2 f2 g2 h2 i2 j2 k2 l2 m2 n2 o2 p2 q2 r2 s2 t2' 'u2 v2 w2 x2 y2 z2 a3 b3 c3 d3 e3 f3 g3 h3 i3 j3 k3 l3 '  'm3 n3 o3 p3 q3 r3 s3 t3 u3 v3 w3 x3 y3 z3 a4 b4 c4 d4';
+        }
+        .One{
+            border: 1px solid;
+
+        }
+        .A{
+            grid-area:a;
+            background-color:orange;
+        }
+        .B{
+            grid-area:b;
+            
+        }
+        .C{
+            grid-area:b;
+            
+        }
+        .D{
+            grid-area:b;
+        }
+        .E{
+            grid-area:b;
+        }
+        .F{
+            grid-area:b;
+        }
+        .G{
+            grid-area:b;
+        }
+        .H{
+            grid-area:b;
+        }
+        .I{
+            grid-area:b;
+        }
+        .J{
+            grid-area:b;
+        }
+        .K{
+            grid-area:b;
+        }
+        .L{
+            grid-area:b;
+        }
+        .M{
+            grid-area:b;
+        }
+        .N{
+            grid-area:b;
+        }
+        .O{
+            grid-area:b;
+        }
+        .P{
+            grid-area:b;
+        }
+        .Q{
+            grid-area:b;
+        }
+        .R{
+            grid-area:r;
+        }
+        .S{
+            grid-area:s;
+            background-color:wheat;
+        }
+        .T{
+            grid-area:t;
+            background-color:rgb(208, 102, 26);
+        }
+        .U{
+            grid-area:u;
+        }
+        .V{
+            grid-area:v;
+            background-color:orange;
+        }
+        .W{
+            grid-area:w;
+            background-color:orange;
+        }
+        .X{
+            grid-area:x;
+            background-color:orange;
+        }
+        .Y{
+            grid-area:y;
+            background-color:orange;
+        }
+        .Z{
+            grid-area:z;
+            background-color:lightgreen;
+        }
+        .A1{
+            grid-area:a1;
+        }
+        .B1{
+            grid-area:b1;
+            background-color:wheat;
+        }
+        .C1{
+            grid-area:c1;
+            background-color:rgb(208, 102, 26);
+        }
+        .D1{
+            grid-area:d1;
+        }
+        .E1{
+            grid-area:e1;
+            background-color:pink;
+        }
+        .F1{
+            grid-area:f1;
+            background-color:orange;
+        }
+        .G1{
+            grid-area:g1;
+            background-color:orange;
+        }
+        .H1{
+            grid-area:h1;
+            background-color:orange;
+        }
+        .I1{
+            grid-area:i1;
+            background-color:lightgreen;
+        }
+    
+        .J1{
+            grid-area:j1;
+        }
+        .K1{
+            grid-area:k1;
+            background-color:wheat;
+        }
+        .L1{
+            grid-area:l1;
+            background-color:rgb(208, 102, 26);
+        }
+        .M1{
+            grid-area:m1;
+            background-color:rgb(166, 222, 54);
+        }
+        .N1{
+            grid-area:n1;
+            background-color:rgb(148, 23, 148);
+        }
+        .O1{
+            grid-area:o1;
+            background-color:rgb(148, 23, 148);
+        }
+        .P1{
+            grid-area:p1;
+            background-color:rgb(148, 23, 148);
+        }
+        .Q1{
+            grid-area:q1;
+            background-color:rgb(148, 23, 148);
+        }
+        .R1{
+            grid-area:r1;
+            background-color:rgb(148, 23, 148);
+        }
+        .S1{
+            grid-area:s1;
+            background-color:rgb(148, 23, 148);
+        }
+        .T1{
+            grid-area:t1;
+            background-color:rgb(148, 23, 148);
+        }
+        .U1{
+            grid-area:u1;
+            background-color:rgb(148, 23, 148);
+        }
+        .V1{
+            grid-area:v1;
+            background-color:rgb(148, 23, 148);
+        }
+        .W1{
+            grid-area:w1;
+            background-color:pink;
+        }
+        .X1{
+            grid-area:x1;
+            background-color:pink;
+        }
+        .Y1{
+            grid-area:y1;
+            background-color:orange;
+        }
+        .Z1{
+            grid-area:z1;
+            background-color:orange;
+        }
+        .A2{
+            grid-area:a2;
+            background-color:lightgreen;
+        }
+        .B2{
+            grid-area:b2;
+        }
+        .C2{
+            grid-area:c2;
+            background-color:wheat;
+        }
+        .D2{
+            grid-area:d2;
+            background-color:rgb(208, 102, 26);
+        }
+        .E2{
+            grid-area:e2;
+            background-color:rgb(166, 222, 54);
+        }
+        .F2{
+            grid-area:f2;
+            background-color:rgb(148, 23, 148);
+        }
+        .G2{
+            grid-area:g2;
+            background-color:rgb(148, 23, 148);
+        }
+        .H2{
+            grid-area:h2;
+            background-color:rgb(148, 23, 148);
+        }
+        .I2{
+            grid-area:i2;
+            background-color:rgb(148, 23, 148);
+        }
+        .J2{
+            grid-area:j2;
+            background-color:rgb(148, 23, 148);
+        }
+        .K2{
+            grid-area:k2;
+            background-color:rgb(148, 23, 148);
+        }
+        .L2{
+            grid-area:l2;
+            background-color:rgb(148, 23, 148);
+        }
+        .M2{
+            grid-area:m2;
+            background-color:rgb(148, 23, 148);
+        }
+        .N2{
+            grid-area:n2;
+            background-color:rgb(148, 23, 148);
+        }
+        .O2{
+            grid-area:o2;
+            background-color:pink;
+        }
+        .P2{
+            grid-area:p2;
+            background-color:pink;
+        }
+        .Q2{
+            grid-area:q2;
+            background-color:pink;
+        }
+        .R2{
+            grid-area:r2;
+            background-color:orange;
+        }
+        .S2{
+            grid-area:s2;
+            background-color:lightgreen;
+        }
+        .T2{
+            grid-area:t2;
+        }
+        .U2{
+            grid-area:u2;
+            background-color:wheat;
+        }
+        .V2{
+            grid-area:v2;
+            background-color:rgb(208, 102, 26);
+        }
+        .W2{
+            grid-area:w2;
+            background-color:rgb(166, 222, 54);
+        }
+        .X2{
+            grid-area:x2;
+            background-color:rgb(148, 23, 148);
+        }
+        .Y2{
+            grid-area:y2;
+            background-color:rgb(148, 23, 148);
+        }
+        .Z2{
+            grid-area:z2;
+            background-color:rgb(148, 23, 148);
+        }
+        .A3{
+            grid-area:a3;
+            background-color:rgb(148, 23, 148);
+        }
+        .B3{
+            grid-area:b3;
+            background-color:rgb(148, 23, 148);
+        }
+        .C3{
+            grid-area:c3;
+            background-color:rgb(148, 23, 148);
+        }
+        .D3{
+            grid-area:d3;
+            background-color:rgb(148, 23, 148);
+        }
+        .E3{
+            grid-area:e3;
+            background-color:rgb(148, 23, 148);
+        }
+        .F3{
+            grid-area:f3;
+            background-color:rgb(148, 23, 148);
+        }
+        .G3{
+            grid-area:g3;
+            background-color:pink;
+        }
+        .H3{
+            grid-area:h3;
+            background-color:pink;
+        }
+        .I3{
+            grid-area:i3;
+            background-color:pink;
+        }
+        .J3{
+            grid-area:j3;
+            background-color:pink;
+        }
+        .K3{
+            grid-area:k3;
+            background-color:lightgreen;
+        }
+        .L3{
+            grid-area:l3;
+        }
+        .M3{
+            grid-area:m3;
+            background-color:wheat;
+        }
+        .N3{
+            grid-area:n3;
+            background-color:rgb(208, 102, 26);
+        }
+        .O3{
+            grid-area:o3;
+            background-color: skyblue;
+        }
+        .P3{
+            grid-area:p3;
+            background-color:rgb(148, 23, 148);
+        }
+        .Q3{
+            grid-area:q3;
+            background-color:rgb(148, 23, 148);
+        }
+        .R3{
+            grid-area:r3;
+            background-color:rgb(148, 23, 148);
+        }
+        .S3{
+            grid-area:s3;
+            background-color:rgb(148, 23, 148);
+        }
+        .T3{
+            grid-area:t3;
+            background-color:rgb(148, 23, 148);
+        }
+        .U3{
+            grid-area:u3;
+            background-color:rgb(148, 23, 148);
+        }
+        .V3{
+            grid-area:v3;
+            background-color:rgb(148, 23, 148);
+        }
+        .W3{
+            grid-area:w3;
+            background-color:rgb(148, 23, 148);
+        }
+        .X3{
+            grid-area:x3;
+            background-color:rgb(148, 23, 148);
+        }
+        .Y3{
+            grid-area:y3;
+            background-color:pink;
+        }
+        .Z3{
+            grid-area:z3;
+            background-color:pink;
+        }
+        .A4{
+            grid-area:a4;
+            background-color:pink;
+        }
+        .B4{
+            grid-area:b4;
+            background-color:pink;
+        }
+        .C4{
+            grid-area:c4;
+            background-color:lightgreen;
+        }
+        .D4{
+            grid-area:d4;
+        }
+      
+       .container2{
+           border: 1px solid;
+           display: grid;
+           grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+           grid-template-rows: 50px 50px;
+           margin-left: 100px;
+           margin-right: 100px;
+           margin-top: 20px;
+           text-align: center;
+       }
+          .Two{
+              border: 1px solid;
+
+          }
+         .blue{
+             background-color: rgb(39, 160, 208);
+         }
+         .green{
+             background-color: rgb(123, 220, 63);
+         }
+
+
+    </style>
+</head>
+<body>
+    <h1>Periodic table of the elements</h1>
+    
+    <div class="container">
+
+        <div class="One A">1 <br> <b > H</b> </div>
+        <div class="One B">  </div>
+        <div class="One C">  </div>
+        <div class="One D">  </div>
+        <div class="One E">  <br> <b > </b></div>
+        <div class="One F">  <br> <b > </b></div>
+        <div class="One G">  <br> <b > </b></div>
+        <div class="One H">  <br> <b > </b></div>
+        <div class="One I">  <br> <b > </b></div>
+        <div class="One J"> <br> </div>
+        <div class="One K">  <br> <b > </b></div>
+        <div class="One L"> <br> <b > </b></div>
+        <div class="One M">  <br> <b > </b></div>
+        <div class="One N">  <br> <b > </b></div>
+        <div class="One O">  <br> <b > </b></div>
+        <div class="One P">  <br> <b > </b></div>
+        <div class="One Q">  <br> <b > </b></div>
+        <div class="One R"> 2<br> <b>He</b></div>
+
+        
+        <div class="One S"> 3 <br> <b> Li</b></div>
+        <div class="One T"> 4 <br> <b> Be</b></div>
+        <div class="One U"></div>
+        <div class="One U"></div>
+        <div class="One U"></div>
+        <div class="One U"></div>
+        <div class="One U"></div>
+        <div class="One U"></div>
+        <div class="One U "></div>
+        <div class="One U"></div>
+        <div class="One U"></div>
+        <div class="One U"></div>
+        <div class="One V">5<br> <b>B</b></div>
+        <div class="One W"> 6<br> <b>C</b></div>
+        <div class="One X"> 7<br> <b>N</b></div>
+        <div class="One Y"> 8<br> <b>O</b></div>
+        <div class="One Z">9<br> <b>F</b></div>
+        <div class="One A1">10<br><b>Ne</b></div>
+
+      
+        <div class="One B1">11<br><b>Na</b></div>
+        <div class="One C1">12<br><b>Mg</b></div>
+        <div class="One D1"></div>
+        <div class="One D1"></div>
+        <div class="One D1"></div>
+        <div class="One D1"></div>
+        <div class="One D1"></div>
+        <div class="One D1"></div>
+        <div class="One D1"></div>
+        <div class="One D1"></div>
+        <div class="One D1"></div>
+        <div class="One D1"></div>
+        <div class="One E1">13<br><b>AI</b></div>
+        <div class="One F1">14<br><b>Si</b></div>
+        <div class="One G1">15<br><b>P</b></div>
+        <div class="One H1">16<br><b>S</b></div>
+        <div class="One I1">17<br><b>CI</b></div>
+        <div class="One J1">18<br><b>Ar</b></div>
+
+        
+        <div class="One K1">19<br><b>K</b></div>
+        <div class="One L1">20<br><b>Ca</b></div>
+        <div class="One M1 ">21<br><b>Sc</b></div>
+        <div class="One N1">22<br><b>Ti</b></div>
+        <div class="One O1 ">23<br><b>V</b></div>
+        <div class="One P1">24<br><b>Cr</b></div>
+        <div class="One Q1">25<br><b>Mn</b></div>
+        <div class="One R1">26<br><b>Fe</b></div>
+        <div class="One S1">27<br><b>Co</b></div>
+        <div class="One T1">28<br><b>Ni</b></div>
+        <div class="One U1">29<br><b>Cu</b></div>
+        <div class="One V1 ">30<br><b>Zn</b></div>
+        <div class="One W1">31<br><b>Ga</b></div>
+        <div class="One X1">32<br><b>Ge</b></div>
+        <div class="One Y1">33<br><b>As</b></div>
+        <div class="One Z1">34<br><b>Se</b></div>
+        <div class="One A2">35<br><b>Br</b></div>
+        <div class="One B2">36<br><b>Kr</b></div>
+
+
+        <div class="One C2">37<br><b>Rb</b></div>
+        <div class="One D2">38<br><b>Sr</b></div>
+        <div class="One E2">39<br><b>Y</b></div>
+        <div class="One F2">40<br><b>Zr</b></div>
+        <div class="One G2">41<br><b>Nb</b></div>
+        <div class="One H2">42<br><b>Mo</b></div>
+        <div class="One I2">43<br><b>Tc</b></div>
+        <div class="One J2">44<br><b>Ru</b></div>
+        <div class="One K2">45<br><b>Rh</b></div>
+        <div class="One L2">46<br><b>Pd</b></div>
+        <div class="One M2">47<br><b>Ag</b></div>
+        <div class="One N2">48<br><b>Cd</b></div>
+        <div class="One O2">49<br><b>In</b></div>
+        <div class="One P2">50<br><b>Sn</b></div>
+        <div class="One Q2">51<br><b>Sb</b></div>
+        <div class="One R2">52<br><b>Te</b></div>
+        <div class="One S2">53<br><b>I</b></div>
+        <div class="One T2">54<br><b>Xe</b></div>
+
+        
+        <div class="One U2">55<br><b>Cs</b></div>
+        <div class="One V2">56<br><b>Ba</b></div>
+        <div class="One W2">57<br><b>La</b></div>
+        <div class="One X2">72<br><b>Hf</b></div>
+        <div class="One Y2">73<br><b>Ta</b></div>
+        <div class="One Z2">74<br><b>W</b></div>
+        <div class="One A3">75<br><b>Re</b></div>
+        <div class="One B3">76<br><b>Os</b></div>
+        <div class="One C3">77<br><b>Ir</b></div>
+        <div class="One D3">78<br><b>Pt</b></div>
+        <div class="One E3">79<br><b>Au</b></div>
+        <div class="One F3">80<br><b>Hg</b></div>
+        <div class="One G3">81<br><b>TI</b></div>
+        <div class="One H3">82<br><b>Pb</b></div>
+        <div class="One I3">83<br><b>Bi</b></div>
+        <div class="One  J3">84<br><b>Po</b></div>
+        <div class="One K3">85<br><b>At</b></div>
+        <div class="One L3">86<br><b>Rn</b></div>
+
+        
+        <div class="One M3">87<br><b>Fr</b></div>
+        <div class="One N3">88<br><b>Ra</b></div>
+        <div class="One O3">89<br><b>Ac</b></div>
+        <div class="One P3">104<br><b>Rf</b></div>
+        <div class="One Q3">105<br><b>Db</b></div>
+        <div class="One R3">106<br><b>Sg</b></div>
+        <div class="One S3">107<br><b>Bh</b></div>
+        <div class="One T3">108<br><b>Hs</b></div>
+        <div class="One U3">109<br><b>Mt</b></div>
+        <div class="One V3">110<br><b>Ds</b></div>
+        <div class="One W3">111<br><b>Rg</b></div>
+        <div class="One X3">112<br><b>Cn</b></div>
+        <div class="One Y3">113<br><b>Nh</b></div>
+        <div class="One Z3">114<br><b>FI</b></div>
+        <div class="One A4">115<br><b>Mc</b></div>
+        <div class="One B4">116<br><b>Lv</b></div>
+        <div class="One C4">117<br><b>Ts</b></div>
+        <div class="One D4">118<br><b>Og</b></div>
+
+        <p>*1</p>
+        <p>2</p>
+        <p>3</p>
+         <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>7</p>
+        <p>8</p>
+        <p>9</p>
+        <p>10</p>
+        <p>11</p>
+        <p>12</p>
+        <p>13</p>
+        <p>14</p>
+        <p>15</p>
+        <p>16</p>
+        <p>17</p>
+        <p>18</p>
+    </div>
+    <div class="container2">
+        <div class="Two green ">58<br><b>Ce</b></div>
+        <div class="Two green"> 59<br><b>Pr  </b></div>
+        <div class="Two green"> 60<br><b>Nd</b></div>
+        <div class="Two green">61<br><b>Pm</b> </div>
+        <div class="Two green"> 62<br><b>Sm</b> </div>
+        <div class="Two green"> 63<br><b>Eu</b> </div>
+        <div class="Two green"> 64<br><b>Gd</b> </div>
+        <div class="Two green"> 65<br><b>Tb</b></div>
+        <div class="Two green"> 66 <br><b>Dy</b></div>
+        <div class="Two green"> 67<br><b>Ho</b></div>
+        <div class="Two green"> 68<br><b>Er</b></div>
+        <div class="Two green"> 69<br><b>Tm</b></div>
+        <div class="Two green"> 70<br><b>Yb</b></div>
+        <div class="Two green"> 71<br><b>Lu</b></div>
+
+        <div class="Two blue"> 90<br><b>Th</b> </div>
+        <div class="Two blue"> 91<br><b>Pa</b> </div>
+        <div class="Two blue"> 92<br><b>U</b> </div>
+        <div class="Two blue"> 93<br><b>Np</b> </div>
+        <div class="Two blue"> 94<br><b>Pu</b></div>
+        <div class="Two blue"> 95<br><b>Am</b></div>
+        <div class="Two blue"> 96<br><b>Cm</b></div>
+        <div class="Two blue"> 97<br><b>Bk</b></div>
+        <div class="Two blue"> 98<br><b>Cf</b></div>
+        <div class="Two blue"> 99<br><b>Es</b></div>
+        <div class="Two blue"> 100<br><b>Fm</b></div>
+        <div class="Two blue"> 101<br><b>Md</b></div>
+        <div class="Two blue"> 102<br><b>No</b></div>
+        <div class="Two blue"> 103<br><b>Lr</b></div>
+    </div>
+</body>
+</html>
