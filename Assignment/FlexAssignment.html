@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        main{
+           /* border: 1px solid red;*/
+            display: flex;
+            flex-direction: column;
+            
+           
+           
+        }
+        header{
+           /* border: 1px solid;*/
+            margin: 10px;
+            background-color: antiquewhite;
+            width: 98%;
+           display: flex;
+           justify-content: center;
+        
+        }
+        section{
+          /*  border: 1px solid;*/
+            margin: 10px;
+            width: 98%;
+            display: flex;
+            flex-direction: column;
+            background-color: grey;
+            
+
+        }
+        .one{
+            /*border: 1px solid;*/
+            display: flex;
+            justify-content: space-between;
+            width: 98%;
+            height: 300px;
+            margin: 10px;
+        }
+        .two{
+            border: 1px solid;
+            width: 18%;
+        }
+        .two>img{
+            height: 100%;
+            width: 100%;
+        }
+      /*  @media screen  and ( max-width:600px){
+            .one{
+                width: 100%;
+
+            }
+            .two{
+                width: 100%;
+            }
+            
+        }*/
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+          <h1>Programming Languages</h1>
+        </header>
+        <section>
+            <div class="one">
+                <div class="two"><img src="../Images/c lang.png" alt="C"></div>
+                <div class="two"><img src="../Images/php.jpg" alt="php"></div>
+                <div class="two"><img src="../Images/Sql.jpg" alt="sql"></div>
+                <div class="two"><img src="../Images/React Js.jpg" alt="Reactjs"></div>
+                <div class="two"><img src="../Images/python.png" alt="Python"></div>
+            </div>
+            <div class="one">
+                <div class="two"><img src="../Images/java.jpg" alt="Java"></div>
+                <div class="two"><img src="../Images/js.png" alt="JS"></div>
+                <div class="two"><img src="../Images/javascript.jpg" alt="javascript"></div>
+                <div class="two"><img src="../Images/Html.jpg" alt="Html"></div>
+                <div class="two"><img src="../Images/Cprogramming.jpg" alt="Cprogramming"></div>
+            </div>
+            <div class="one">
+                <div class="two"><img src="../Images/programming-language-icon-14.jpg" alt="Programming"></div>
+                <div class="two"><img src="../Images/Css.jpg" alt="CSS"></div>
+                <div class="two"><img src="../Images/Ruby.jpg" alt="Ruby"></div>
+                <div class="two"><img src="../Images/Go.jpg" alt="Go"></div>
+                <div class="two"><img src="../Images/languages.png" alt="Languages"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
