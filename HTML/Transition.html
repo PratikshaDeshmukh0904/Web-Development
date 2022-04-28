@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition </title>
+    <style>
+       .one:hover{
+            width: 600px;
+            height: 600px;
+        }
+        
+       
+        .one{
+            border: 1px solid;
+            height: 400px;
+            width: 400px;
+            margin-bottom: 10px;
+            transition:width 2s ,height 3s;
+            transition-delay: 2s;
+          
+            
+            
+
+
+        }
+        .a{
+            transition-timing-function: ease-in;
+        }
+        .b{
+            transition-timing-function: ease-out;
+        }
+        .c{
+            transition-timing-function: ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+    <div  class="one">  </div>
+    <div class="one a"></div>
+    <div class="one b"></div>
+    <div class="one c"></div>
+    <div class="one d"></div>
+</body>
+</html>

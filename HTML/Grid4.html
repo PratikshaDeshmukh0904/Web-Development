@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid4</title>
+    <style>
+        .container{
+            border: 1px solid;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 300px 300px 300px;
+            grid-template-areas: 'a a b c' 'd d e e' 'd d f g';
+        }
+        .One{
+            border: 1px solid;
+        }
+        .a{
+            grid-area: a;
+            text-align: center;
+        }
+        .b{
+            grid-area: b;
+        }
+        .c{
+            grid-area: c;
+        }
+        .d{
+            grid-area: d;
+        }
+        .e{
+            grid-area: e;
+        }
+        .f{
+            grid-area: f;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class=" One a">A</div>
+    <div class=" One b">B</div>
+    <div class=" One c">C</div>
+    <div class=" One d">D</div>
+    <div class=" One e">E</div>
+    <div class=" One f">F</div>
+    <div class=" One g">G</div>
+</div>
+
+</body>
+    
+
+</html>

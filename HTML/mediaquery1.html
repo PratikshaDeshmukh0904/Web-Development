@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query 1</title>
+    <style>
+        .one{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+        
+            border: 1px solid red;
+            
+            
+        }
+        .Three,.Two{
+            border: 1px solid;
+            
+            width: 30%;
+        }
+        .Three>div{
+            
+            height: 50px ;
+            width: 100%;
+            border: 1px solid;
+            margin-bottom: 10px;
+            
+        }
+        .Three{
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+
+        }
+        .Two{
+            display: flex;
+            border: 1px solid;
+        
+            width: 70%;
+        }
+        @media  screen and (max-width:500px) {
+            .one{
+                display: flex;
+                flex-direction: column;
+            }
+            .Three{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .Three>div{
+                width: 100%;
+            }
+            .Two{
+                width: 100%;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="Three">
+        <div > MENU1</div>
+        <div > MENU1</div>
+        <div>  MENU1</div>
+        <div> MENU1</div>
+        <div> MENU1</div> 
+    </div>      
+        <div class="Two">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                 Tempore repellat nemo facilis et fugiat ea quos ut ad eum repellendus.<br>
+                  Qui laudantium, nulla eligendi sint dolores commodi ducimus sed labore.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam eaque consequatur iste blanditiis laudantium saepe reprehenderit odit a quisquam. Ut illo porro blanditiis pariatur maxime cumque enim molestias vel sint? Consectetur rem facere aperiam possimus at aut eum minus eaque
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quae aut, tempora, doloremque quo eum exercitationem, voluptas minima veritatis numquam dolore! Asperiores aperiam recusandae repellendus laboriosam autem minus? Ex, quaerat? Voluptates, fugit similique! Officiis distinctio, sapiente cumque quisquam, repudiandae accusamus ipsa delectus mollitia fugiat voluptas nam a similique animi iusto, nisi modi tempore culpa? Rem commodi nobis facilis nulla numquam, quo nemo aliquid ea qui laboriosam distinctio! Perferendis, doloremque eligendi voluptate consequatur explicabo reprehenderit doloribus enim aspernatur, labore asperiores minima, dolorum commodi obcaecati iure numquam fuga. Debitis nobis commodi ut eius laboriosam et optio similique dolorum error, sunt recusandae illo?.</p>
+        </div>
+    </div>
+   
+</body>
+</html>
