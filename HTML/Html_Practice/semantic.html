@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Element</title>
+    <style>
+        .all-browsers{
+            margin: 0;
+            padding: 5px;
+            background-color: lightgray;
+        }
+        .all-browsers > h1, .browser{
+            margin: 10px;
+            padding: 5px;
+        }
+        .browser{
+            background: white;
+        }
+        .browser > h2,p {
+            margin: 4px;
+            font-size: 90%;
+        }
+
+    </style>
+</head>
+<body>
+    <strong>Section Element</strong> 
+    <section>
+        <h1>WWF</h1>
+        <p>The World Wide Fund for Nature is an international 
+            organization working on issues regarding the conservation ,research and
+        restoration of the environment ,formely named the World Wildlife Fund. </p>
+    </section>
+    <section>
+        <h1>Semantic Tag</h1>
+        <p>A semantic element clearly describes its meaning to 
+            both the browser and the developer
+        </p>
+    </section>
+
+    <strong>Article Element</strong>
+   
+    <article class="all-browsers">
+        <h2>Google Chrome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores laborum magni saepe tenetur 
+            sunt dolorum quas dolores earum sit nobis, nam sequi debitis aperiam accusamus corrupti assumenda error in quasi.</p>
+    </article>
+
+    <article class="browser">
+        <h2>Mozilla Firefox</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Repudiandae maiores quam labore esse nam aspernatur, dicta aliquid quasi ut in?</p>
+    </article>
+    <br>
+    <article class="browser">
+        <h2>Microsoft Edge</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi error aperiam perferendis?</p>
+    </article>
+    <!--Html Header Element-->
+    <article>
+        <header>
+            <h1>ABC  </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, ipsam!</p>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ea magnam nesciunt dolores consectetur repudiandae?</p>     
+    </article>
+</body>
+</html>

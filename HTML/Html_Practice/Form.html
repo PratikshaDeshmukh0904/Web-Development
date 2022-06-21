@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Fom</title>
+    </head>
+
+    
+    <body>
+        <form>
+            
+                <div style="border: 1px; background-color:aqua;text-align: center; margin: 100px;">
+                    <captionx><h1>Registration Form</h1></caption>
+                    <h3>Login</h3>
+                <label for="N">Name:</label>
+                <input id="N" type="text" name="name"placeholder="Enter Name"><br>
+                <br>
+                <label for="Pass">Password:</label>
+                <input id="Pass"type="text"name="pass"placeholder="Enter Correct Password"><br>
+                <br>
+ <!-- input form checkbox displays a checkboxes for selecting zero or more choices-->
+                 <label for="Language">Languages</label>
+                 <input type="checkbox"id="Language"name="Languages">
+                 <label for="Java">Java</label>
+                <input type="checkbox" id="Java"name="Java">
+                <label for="Css">Css </label>
+                <input type="checkbox"id="Css" name="Css">
+                <label for="Html">Html</label>
+                <input id="Html" type="checkbox" name="Html">
+                <label for="JavaScript">JavaScript</label> <br>
+                 <br>
+ <!-- Radio button display for selecting one of many choices-->
+                 <label for="Gender">Gender:</label>
+                 <input type="radio" id="Gender" name="gender">
+                 <label for="Male">Male</label>
+                 <input type="radio" id="Male" name="gender">
+                 <label for="Female" >Female</label><br>
+                 <br>
+ <!-- input type color is used for input field that should contain a color-->
+                 <label for="favcolor">Select your favorite color: </label>
+                 <input type="color"id="favcolor"name="color" ><br>
+                 <br>
+ <!--Date=> is used for input fields contain a date-->
+                 <label for="birthday">Birthday:</label>
+                 <input type="date"id="birthday"name="Bday"><br>
+                 <br>
+ <!--You can also use min and max attributes to add restrictions to dates-->
+                 <label for="datemax">Enter a date before 1970-01-01:</label>
+                 <input type="date"id="datemax"name="maximum" max="1970-01-01"><br>
+                 <br>
+                 <label for="datemin">Enter a date after 2000-01-01: </label>
+                 <input type="date"id="datemin"name="minimum"min="2000-01-01"><br>
+                 <br>
+ <!-- Datetime-local specifies a date and time input field with no time zone-->
+                 <label for="birthdaytime">Birthday(date and time):</label>
+                 <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+                 <br>
+ <!--Emai is used for contain email address-->
+                 <label for="email">Enter your email:</label>
+                 <input type="email"id="email"name="email" placeholder="Enter Email"><br>
+                 <br>
+<!--File daefines a file-select field and "Browse" button for file uploads-->
+                 <label for="myfile">Select a file:</label>
+                 <input type="file"id="myfile"name="file"><br>
+                 <br>
+ <!--Hidden defines a hidden input field(not visible to a user)-->
+                 <label for="fname">First Name:</label>
+                 <input type="text"id="fname"name="fname" placeholder="First name"><br><br>
+                 <input type="hidden"id="custId" name="custId" value="3487"><br>
+                 <br>
+ <!--Month alows user to select a month and year-->
+                 <label for="bdaymonth">Birthday (month and year):</label>
+                 <input type="month"id="bdaymonth"name="bmonth"><br>
+                 <br>
+<!--Number defines numeric input field-->
+                 <label for="quantity">Quantity (bet 1 and 5):</label>
+                 <input type="number" id="quantity"name="Quantity "min="1" max="5"><br>
+                 <br>
+ <!--with step -->
+                 <label for="quantity">Quantity1 (bet 1 and 5):</label>
+                 <input type="number" id="quantity"name="Quantity1 "min="0" max="100" step="10" value="30"><br>
+                 <br>
+ <!--input type range defines control for entering a number whose exact value is not important-->
+                   <label for="vol">Volume (between 0 to 50):</label>
+                   <input type="range" id="vol"name="Volume" min="0"max="50"><br>
+                   <br>
+<!--search is used for search fields -->
+                   <label for="gsearch">Search Google:</label>
+                   <input type="search" id="gsearch" name="search" target="_blank" placeholder="Search google"><br>
+                   <br>
+<!-- Tel is used for input fields that should contain a telephone number-->
+                   <label for="phone">Enter your phone number:</label>
+                   <input type="tel" id="phone" name="telphone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your phn_no"><br>
+                   <br>
+                   <!--for mobile no-->
+                   <label for="mobile">Enter Mobile NO:</label>
+                   <input type="text" id="mobile" name="mobile" maxlength="10"><br>
+                   <br>
+                   <!--Drop down list-->
+                   <label for="course">Course:</label>
+                   <select >
+                       <option>Java</option>
+                       <option>Css</option>
+                       <option>Html</option>
+                   </select><br>
+                   <br>
+ <!--Time allows the user to select a time (no time zone)-->
+                   <label for="appt">Select a time:</label>
+                   <input type="time" id="appt" name="appt"><br>
+                   <br>
+<!--Url is used for input fields that should contain a URL address-->
+                   <label for="homepage">Add your homepage:</label>
+                   <input type="url" id="homepage" name="homepages" placeholder="Add your Homepage "><br>
+                   <br>
+ <!-- Week allows the user to select a week and year-->
+                   <label for="week">Select a week:</label>
+                   <input type="week" id="week" name="Week"><br>
+                   <br>
+  <!--Submit defines a button for submitting form data to a form handler-->
+                   <input type="submit"value="submit">      <input type="reset">
+                   <br><br>
+ <!--Reset defines a reset button that will reset all form values to their dafault values-->
+                  
+                </form>
+                
+                </div>          
+   </body>
+</html>

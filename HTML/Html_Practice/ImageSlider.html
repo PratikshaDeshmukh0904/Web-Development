@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <style>
+        body,html,ul,li,img,div{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            width: 80%;
+            margin: 50px auto;
+        }
+        .auto-slider img{
+            display: block;
+        }
+        .auto-slider{
+            outline: 1px solid red;
+            width: 720px;
+            height: 360px;
+            overflow-x: hidden;
+        }
+        .auto-slider-content{
+            list-style-type: none;
+            display: flex;
+            animation-name: slide;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate-reverse;
+        
+        }
+        .auto-slider-content:hover{
+            animation-play-state: paused;
+        }
+        @keyframes slide{
+            10%{
+                transform: translateX(0px);
+            }
+           15%, 30%{
+                transform: translateX(-720px);
+            }
+            35%,50%{
+                transform: translateX(-1440px);
+            }
+            55%,70%{
+                transform: translateX(-2160px);
+            }
+            75%,90%{
+                transform: translateX(0px);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+        <div class="auto-slider">
+            <ul class="auto-slider-content">
+                <li><img src="../Images_Practice/a1.jpg" alt="image1" height="360px" width="720px"> </li>
+                <li><img src="../Images_Practice/beautiful-autumn-trees-wallpaper-preview.jpg" alt="image2"  height="360px" width="720px"></li>
+                <li><img src="../Images_Practice/Flower.jpg" alt="image3" height="360px" width="720px" ></li>
+                <li><img src="../Images_Practice/ABC.jpg"  height="360px" width="720px"></li>
+
+            </ul>
+        </div>
+        
+    
+</body>
+</html>
