@@ -1,0 +1,91 @@
+#section2{
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+#section2>.j1,#section2>.j2{
+    border: 1px solid;
+    height: 400px;
+    
+    margin: 10px;
+    display: flex;
+}
+
+#section2>.j1>.ring{
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    margin: 20px;
+
+    /*background-image: url(../Image/two-finger-diamond-ring-.png);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+#section2>.j1>.pendant{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 45%;
+    margin: 20px;
+    /*background-image: url(../Image/brilliant-diamond-pendant-.png);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+#section2>.j2>.earring{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    background-image: url(../Image/close-setting-earrings-.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#section2>.j2>.bracelet{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    background-image: url(../Image/trendy-men-s-diamond-bracelet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section2>.j2>.bangle{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    background-image: url(../Image/dazzling-diamond-bangles-.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2>.j1>.necklace{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 45%;
+    margin: 20px;
+  /*  background-image: url(../Image/intricately-designed-diamond-necklace-.png);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+#section2>.j1>.chain{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 45%;
+    margin: 20px;
+  /*  background-image: url(../Image/gents-chain-.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+/*
+#section2>.j1>.j2>img{
+    height: 100%;
+    width: 100%;
+}*/

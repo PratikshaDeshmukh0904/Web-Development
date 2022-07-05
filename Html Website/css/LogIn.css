@@ -1,0 +1,19 @@
+#aside1{
+    border: 1px solid;
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-image: url(../Image/shop4.jpg);
+
+    
+    
+}
+.LogForm{
+    border: 1px solid;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

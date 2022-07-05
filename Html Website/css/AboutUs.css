@@ -1,0 +1,42 @@
+.section1{
+    display: flex;
+    flex-direction: column;
+}
+.A1{
+    display: flex;
+}
+.section1>.A1>.about{
+   background-color: white;
+   border-radius: 20px;
+   height: 60%;
+   width: 30%;
+   margin: 10px;
+}
+.section1>.A1>.about1{
+    background-color: rgb(240, 118, 148);
+    border-radius: 20px;
+    height: 60%;
+    width: 50%;
+    margin: 20px;
+    
+ }
+ .A2{
+     display: flex;
+ }
+ .section1>.A2>.about2{
+    background-color: rgb(240, 118, 148);
+    border-radius: 20px;
+    height: 60%;
+    width: 50%;
+    margin: 30px;
+    
+ }
+ 
+ .section1>.A2>.about3{
+    background-color: white;
+    border-radius: 20px;
+    height: 60%;
+    width: 40%;
+    margin: 10px;
+
+ }
