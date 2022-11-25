@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOCUMENT OBJECT MODEL</title>
+    </head>
+    <body>
+        <ul>
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Cold Coffee</li></ul>
+            <p class="Abc">Document Object Model</p>
+            <button onclick="change()">Change By ClassName</button>
+        <script>
+            console.log(document.body.DocumentElement);
+           console.log(document.body);
+          console.log(document.head);
+          console.log(document.body.children);
+          const x = Array.from(document.body.children);
+          console.log(x);
+
+         console.log(document.body.childNodes);
+
+          console.log(document.body.firstChild);
+
+          console.log(document.body.lastChild);
+
+          console.log(document.body.firstElementChild);
+
+          console.log(document.body.lastElementChild);
+
+          console.log(document.head.firstChild);
+
+         function change()
+         {
+             document.getElementsByClassName("Abc").innerHTML='Java Script DOM Model';
+         }
+          alert('Hi');
+        </script>
+    </body>
+</html>
