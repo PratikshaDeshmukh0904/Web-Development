@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Element</title>
+        <head>
+            <body>
+                <div id="parent">
+                    <p>firstChild</p>
+                   
+                </div>
+                <button onclick="show()">create</button>
+            </body>
+<script>
+    function show(){
+        var x=document.getElementById('parent');
+        var child = document.createElement('p');
+
+        var y = "second Child";
+        child.innerHTML = y;
+        x.append(child);
+    }
+    </script>
