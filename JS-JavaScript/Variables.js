@@ -44,3 +44,13 @@ console.log(typeof Number);
 
 //To Uppercase 
 console.log(FullStatement.toUpperCase());
+
+//to lowercase
+console.log(FullStatement.toLowerCase());
+
+//To Find length of variable
+console.log(FullStatement.length);   //Length is not a function it is a property
+
+
+//When u want to add any special symbol then add \ before this symbol
+let message ='It\'s OK'; //It gives error when we not use backward slash
