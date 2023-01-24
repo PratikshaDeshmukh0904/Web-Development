@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+    //Arrow Function
+    //method1
+    const sum = (num1,num2) =>{
+
+            const sum=num1+num2;
+            return sum;
+    }
+    let mySum=sum(2,3);
+    console.log(mySum);
+    //To create arrow function we use const keyword and for simple function use function keyword
+
+
+    const sayHello=(name)=>{
+        console.log('Hello',name);
+    };
+    sayHello('Pratiksha');
+
+
+    //If there is only one line to print then dont use {}
+    const sayHello1=(name)=>console.log('Hello',name);
+    
+    sayHello1('Pratiksha Deshmukh');
+
+
+    //method2
+    const sum1 = (num1,num2) =>{
+
+        return num1+num2;
+        }
+        let mySum1=sum1(19,3);
+        console.log(mySum1);
+
+
+    //method3
+    const sum2 = (num1,num2) => num1+num2;
+
+    let mySum2=sum2(19,21);
+    console.log(mySum2);
+</script>
+</head>
+<body>
+    
+</body>
+</html>
