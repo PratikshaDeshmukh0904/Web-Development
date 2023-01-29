@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        //Write a function which takes a array of numbers,calculates the average of numbers and returns it
+        
+        function average(...numbers){
+            let sum=0;
+            for(let i=0;i<numbers.length;i++)
+            {
+                sum +=numbers[i];
+            }
+            // const avg=sum/numbers.length;
+            // return avg;
+            return sum/numbers.length;
+        }
+        console.log(average(1,2,3,4));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
