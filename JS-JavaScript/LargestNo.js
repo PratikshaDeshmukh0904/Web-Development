@@ -1,16 +1,12 @@
-function maximum(first,second,third){
-    if(first>second && first>third){
-        return first;
-    }
-    else if(second>first && second>third)
+function LargestNo(numbers){
+    let Largestnumber=numbers[0];
+    for(let i=0;i<numbers.length;i++)
     {
-        return second;
+        if(Largestnumber<numbers[i])
+        {
+            Largestnumber=numbers[i];
+        }
     }
-  else if(third>first && third>second)
-  {
-    return third;
-  }
-   
+    return Largestnumber;
 }
-maximum(10,28,80)
-console.log(maximum(10,28,80));
+console.log(LargestNo([1,6,8,9,4]));
