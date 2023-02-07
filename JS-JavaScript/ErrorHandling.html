@@ -1,0 +1,30 @@
+<!--
+    1.Runtime errors can be handled
+    2.Also called exceptions
+    3.Syntax or logical errors can not be handled in runtime
+    4.Try ,catch ,finally and throw are keywords used for exception handlng
+-->
+<html>
+    <head>
+        <script language="javascript" type="text/javascript">
+            function myFunc(){
+                var a = 100
+                try{
+                    //var s = a.toUpperCase();
+                    alert("Value of a variable is :" + a);
+
+                }
+                catch(e){
+                    alert("error");
+
+                }
+                finally{
+                    alert("finally block will always executed!");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="submit" onclick="myFunc()" value="Click Me">
+    </body>
+</html>

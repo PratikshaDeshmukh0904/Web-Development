@@ -1,0 +1,20 @@
+<html>
+    <head>
+<!--HTML events are "things" that happen to HTML elements.-->
+<script language="javascript" type="text/javascript">
+    function MouseOver()
+    {
+        document.images[""].src = "logo red.png"
+    }
+    function MouseOut(){
+        document.images["img1"].src = "logo green.png"
+    }
+    function Load(){
+        document.images["img1"].src = "logo green.png"
+    }
+</script>    
+</head>
+    <body onload="Load()">
+        <img name="img1" onmouseover="MouseOver" onmouseout="MouseOut"
+    </body>
+</html>
