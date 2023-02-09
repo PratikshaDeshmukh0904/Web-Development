@@ -1,0 +1,30 @@
+<!--
+    1.It used for maintaining state on client
+    2.Cookies are stored on the clients machine as text file
+    3.When user vists again the website reads the data from the cookie
+
+    1.Session Cookies-- which doesnt have lifetime
+    2.Persistent Cookies-- you may add a timespan which will make it a persistent cookie
+-->
+
+<html>
+    <head>
+        <script language="javascript" text="text/javascript">
+            function WriteCookie(){
+                if(document.myform.customer.value == ""){
+                    alert("enter some value");
+                    return;
+                }
+                cookievalue = escape(document.myform.customer.value) + ":";
+                document.cookie = "name "+cookievalue;
+                document.write("setting cookies:" + "name="+cookievalue);
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myform" action="">
+            Enter Name:<input type="text" name="customer">
+            <input type="button" value="set cookie" onclick="WriteCookie();">
+        </form>
+    </body>
+</html>
